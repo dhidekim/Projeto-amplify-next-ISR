@@ -1,0 +1,31 @@
+{
+  "name": "projeto-isr-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/backend": "^1.5.2",
+    "@aws-amplify/ui-react": "^6.5.5",
+    "aws-amplify": "^6.7.0",
+    "axios": "^1.1.3",
+    "next": "^15.0.2",
+    "projeto-isr-next": "file:",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.8.5",
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
